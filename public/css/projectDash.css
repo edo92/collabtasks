@@ -1,0 +1,194 @@
+
+.header{
+    background-color: black;
+    height: 100px;
+}
+
+#logo{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 250%;
+    line-height: 100px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#logout{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 100%;
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+#home{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 100%;
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    position: relative;
+}
+
+#sideNav{
+    position: absolute;
+    top: 100px;
+    left: 75%;
+    bottom: 0;
+    background-color: #f0f0f5;
+    height: 100vh;
+}
+
+li{
+    list-style: none;
+}
+
+.itemHeader{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.fa-check-circle{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+.fa-times-circle{
+color: white;
+padding-left: 3px;
+font-size: 20px;
+}
+
+ul{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+li button{
+    width: 90%;
+    background-color: white;
+    margin-bottom: 5px;
+}
+#projectName{
+    font-size: 200%;
+    font-weight: bold;
+    padding: 20px 0 20px 20px;   
+}
+
+.itemsContainer{
+    border-radius: 10px;
+    background-color: #f0f0f5;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(156, 155, 155, 0.2), 0 6px 20px 0 rgba(146, 145, 145, 0.05);
+}
+
+.itemsContainer:last-child{
+    padding-bottom: 3px;
+}
+
+#sideNav .btn-success{
+    border: none;  
+    margin-bottom: 10px; 
+}
+
+.input-group{
+    width: 90%;
+    margin: 0 auto;
+}
+
+input{
+    border-radius: 10px;   
+}
+
+
+#chatArea{
+    height: 300px;
+    border: solid 1px rgb(182, 180, 180);
+    margin: 10px 0 10px 0;
+    background-color: white;
+    overflow: auto;
+}
+
+#ProjectNameSide{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#doing .btn{
+    text-decoration: none;
+    padding: 5px;
+    width: 92%;
+    margin: 5px auto;
+    white-space: normal;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;  
+}
+
+#need .btn{
+    text-decoration: none;
+    padding: 5px;
+    width: 92%;
+    margin: 5px auto;
+    white-space: normal;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;  
+}
+
+#done .btn{
+    text-decoration: none;
+    padding: 5px;
+    width: 92%;
+    margin: 5px auto;
+    white-space: normal;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;  
+}
+
+textarea{
+    outline: none;
+    height: 40px;
+    resize: none;
+}
+
+
+#typer{
+    font-size: 14px;
+}
+
+#profilePic{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(66, 66, 66, 0.2), 0 6px 20px 0 rgba(58, 57, 57, 0.05);
+}
+
+#profilePic:hover{
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+

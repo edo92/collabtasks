@@ -1,0 +1,108 @@
+
+
+.header{
+    background-color: black;
+    height: 100px;
+ }
+
+
+ #logo{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 250%;
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: left;
+    text-decoration: none;
+}
+
+.modal input{
+    margin-bottom: 20px;
+}
+
+ .nav-link{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    line-height: 80px;
+    vertical-align: bottom;
+    text-align: right;
+    text-decoration: none;
+}
+
+ .nav-link:hover{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    line-height: 80px;
+    vertical-align: bottom;
+    text-align: right;
+}
+
+.nav-link:focus{
+    outline: 0;
+}
+
+.badge{
+    color: white;
+    font-size: 15px;
+    vertical-align: top;
+    line-height: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#bodytext{
+    padding-top: 50px;
+    height:450px;
+    color:black;
+    font-family: 'Lobster', ;
+    font-size: 100%;
+     vertical-align: middle;
+    text-align: left;
+ }
+
+#bodytext h1{
+    padding-top:75px ;
+    font-style: italic;
+}
+
+img{
+     margin-top: 75px;
+     width: 100%;
+     border-radius: 25px;
+     box-shadow: 0 4px 8px 0 rgba(156, 155, 155, 0.2), 0 6px 20px 0 rgba(146, 145, 145, 0.05);
+}
+
+.second{
+     background-color: rgb(228, 227, 227);
+     color: rgb(94, 93, 93);
+}
+
+.about{
+     color: rgb(177, 175, 175);
+     width: 75%;
+     text-align: left;
+}
+
+ .second p{
+     padding-left: 120px;
+     color: rgb(94, 93, 93);
+     width: 75%;
+ }
+
+ .second h1{
+    padding-left: 120px;
+}
+
+#footer h1{
+    padding-top: 20px;
+}
+
+#footer{
+    background-color: black;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: white;
+    height: 130px;
+    width: 100vw;
+}

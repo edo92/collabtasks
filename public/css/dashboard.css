@@ -1,0 +1,132 @@
+.projectButton{
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    line-height: 150px;
+    margin: 0 3% 3% 0;
+    color: white;
+    background-color: rgb(29, 104, 245);
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(66, 66, 66, 0.2), 0 6px 20px 0 rgba(58, 57, 57, 0.05);
+}
+
+.projectButton:hover{
+    background-color: rgb(18, 18, 247);
+}
+
+
+.projectButton i {
+    position: absolute;
+    left: 90%;
+    top: 5px;
+    font-size: 20px;
+    z-index: 5;
+}
+
+.projectButton p{
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    width: 250px;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.header{
+    background-color: black;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#logo{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 250%;
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+}
+
+#logout{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 100%;
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#projectName{
+    font-size: 250%;
+    font-weight: bold;
+    margin-top: 25px;
+    padding-top: 5px;
+    line-height: 50px;
+    vertical-align: bottom;
+    display: inline-block;
+
+}
+
+
+#projectTiles{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    height: 300px;
+    width: 100%;
+
+}
+
+#addProj{
+
+    box-shadow: 0 4px 8px 0 rgba(66, 66, 66, 0.2), 0 6px 20px 0 rgba(58, 57, 57, 0.05);
+}
+
+#peopleLogo{
+    height: 70px;
+    width: 70px;
+}
+
+#footer h1{
+    padding-top: 20px;
+}
+
+#footer{
+    background-color: black;
+    margin-top: 100px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: white;
+    height: 130px;
+    width: 100vw;
+}
+
+#profilePic{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(66, 66, 66, 0.2), 0 6px 20px 0 rgba(58, 57, 57, 0.05);
+}
+
+#profilePic:hover{
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
